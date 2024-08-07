@@ -1,0 +1,52 @@
+.css-1uvcgxq-MuiCardContent-root:last-child{
+    // height: auto;
+    // max-height: 157px ;    
+}
+.arrow {
+    font-size: large;
+    display: inline-flex;
+    color: forestgreen;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dashboard{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+    .dashboard {
+
+            flex-direction: row;
+            flex-wrap: wrap;
+            flex-shrink: 1;
+            flex-grow: 1;
+            div{
+                width: 100% !important;
+            }
+        }
+}
+
+.css-hg2s80-MuiPaper-root-MuiAppBar-root header {
+    background-color: "#20202a" !important;
+}
+
+.MuiPaper-root {
+    background-color: "#20202a" !important;
+}
+
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-left,
+.apexcharts-legend.apx-legend-position-top.apexcharts-align-left,
+.apexcharts-legend.apx-legend-position-right,
+.apexcharts-legend.apx-legend-position-left {
+    justify-content: revert-layer;
+    display: none;
+}
